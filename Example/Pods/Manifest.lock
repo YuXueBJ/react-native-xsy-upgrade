@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  react-native-xsy-upgrade: 370d161c7c60f4aa8d4f76b2c38f23c3f9b4aa7b
+  react-native-xsy-upgrade: c621f0c06f9f698d0f7ea14dcc9baca29776a0e1
 
 PODFILE CHECKSUM: 050f40db59811ce91e41ac616e744dc679fa4a5e
 
