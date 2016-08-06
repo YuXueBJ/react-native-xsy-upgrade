@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'react-native-xsy-upgrade_Example' do
+  pod 'react-native-xsy-upgrade', :path => '../'
+
+  target 'react-native-xsy-upgrade_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,22 @@
+{
+  "name": "react-native-xsy-upgrade",
+  "version": "0.1.0",
+  "summary": "A short description of react-native-xsy-upgrade.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/react-native-xsy-upgrade",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "朱洪伟": "zhuhw@xiaoshouyi.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/react-native-xsy-upgrade.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "react-native-xsy-upgrade/Classes/**/*"
+}

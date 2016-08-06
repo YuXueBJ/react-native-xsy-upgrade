@@ -1,0 +1,6 @@
+framework module Pods_react_native_xsy_upgrade_Tests {
+  umbrella header "Pods-react-native-xsy-upgrade_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
