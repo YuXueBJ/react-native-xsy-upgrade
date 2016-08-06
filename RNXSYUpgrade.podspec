@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
                         }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'react-native-xsy-upgrade/Classes/**/*'
+  s.source_files = 'RNXSYUpgrade/Classes/**/*'
   
   # s.resource_bundles = {
   #   'react-native-xsy-upgrade' => ['react-native-xsy-upgrade/Assets/*.png']
