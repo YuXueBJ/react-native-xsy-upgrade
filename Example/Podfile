@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'react-native-xsy-upgrade_Example' do
-  pod 'react-native-xsy-upgrade', :path => '../'
+  pod ‘RNXSYUpgrade’, :path => '../'
 
   target 'react-native-xsy-upgrade_Tests' do
     inherit! :search_paths

@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## react-native-xsy-upgrade
+## RNXSYUpgrade
 
 Copyright (c) 2016 朱洪伟 <zhuhw@xiaoshouyi.com>
 

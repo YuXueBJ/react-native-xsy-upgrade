@@ -1,0 +1,27 @@
+{
+  "name": "RNXSYUpgrade",
+  "version": "0.1.0",
+  "summary": "react-native-xsy-upgrade 是热更新，仅限于xsy react-native项目",
+  "homepage": "https://github.com/YuXueBJ/react-native-xsy-upgrade",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "朱洪伟": "zhuhw@xiaoshouyi.com"
+  },
+  "source": {
+    "git": "https://github.com/YuXueBJ/react-native-xsy-upgrade.git",
+    "branch": "0.1.0",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RNXSYUpgrade/Classes/**/*",
+  "libraries": [
+    "c++",
+    "stdc++.6.0.9"
+  ],
+  "requires_arc": true
+}

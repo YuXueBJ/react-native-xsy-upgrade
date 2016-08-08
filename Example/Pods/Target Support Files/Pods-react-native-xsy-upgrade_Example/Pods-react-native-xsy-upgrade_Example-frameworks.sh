@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/react-native-xsy-upgrade/react_native_xsy_upgrade.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RNXSYUpgrade/RNXSYUpgrade.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/react-native-xsy-upgrade/react_native_xsy_upgrade.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RNXSYUpgrade/RNXSYUpgrade.framework"
 fi

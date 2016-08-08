@@ -1,0 +1,6 @@
+framework module RNXSYUpgrade {
+  umbrella header "RNXSYUpgrade-umbrella.h"
+
+  export *
+  module * { export * }
+}

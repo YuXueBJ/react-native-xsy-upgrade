@@ -5,22 +5,22 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.2):
     - FBSnapshotTestCase/Core
   - Kiwi (2.4.0)
-  - react-native-xsy-upgrade (0.1.0)
+  - RNXSYUpgrade (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - Kiwi
-  - react-native-xsy-upgrade (from `../`)
+  - RNXSYUpgrade (from `../`)
 
 EXTERNAL SOURCES:
-  react-native-xsy-upgrade:
+  RNXSYUpgrade:
     :path: ../
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  react-native-xsy-upgrade: c621f0c06f9f698d0f7ea14dcc9baca29776a0e1
+  RNXSYUpgrade: cf7e4f074e6da593637dc2a819f4e9a41de5a7f1
 
-PODFILE CHECKSUM: 050f40db59811ce91e41ac616e744dc679fa4a5e
+PODFILE CHECKSUM: fa864c179f6dade9d8c049d89030922342cec1bc
 
 COCOAPODS: 1.0.1

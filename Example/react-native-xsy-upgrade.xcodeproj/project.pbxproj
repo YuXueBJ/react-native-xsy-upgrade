@@ -23,6 +23,12 @@
 		725DA974F937A1D63BAA1EEF /* Pods_react_native_xsy_upgrade_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8136F9ABCE8026C4577911D /* Pods_react_native_xsy_upgrade_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C3A9975BBA16C148CE644571 /* Pods_react_native_xsy_upgrade_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEAC9881BDBD4ECC1B8026F /* Pods_react_native_xsy_upgrade_Tests.framework */; };
+		E42712CF1D55BFE500099F58 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E42712CC1D55BFE500099F58 /* libc++.tbd */; };
+		E42712D01D55BFE500099F58 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E42712CD1D55BFE500099F58 /* libstdc++.6.0.9.tbd */; };
+		E42712D11D55BFE500099F58 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E42712CE1D55BFE500099F58 /* libstdc++.tbd */; };
+		E42712D31D55C95A00099F58 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E42712D21D55C95A00099F58 /* libbz2.1.0.tbd */; };
+		E42712D51D55C96200099F58 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E42712D41D55C96200099F58 /* libbz2.tbd */; };
+		E42712D71D55C97600099F58 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E42712D61D55C97600099F58 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,12 @@
 		9CEAC9881BDBD4ECC1B8026F /* Pods_react_native_xsy_upgrade_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_xsy_upgrade_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16B037714D6B0BE683DCDE9 /* Pods-react-native-xsy-upgrade_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-xsy-upgrade_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-react-native-xsy-upgrade_Tests/Pods-react-native-xsy-upgrade_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B8136F9ABCE8026C4577911D /* Pods_react_native_xsy_upgrade_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_xsy_upgrade_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42712CC1D55BFE500099F58 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E42712CD1D55BFE500099F58 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		E42712CE1D55BFE500099F58 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		E42712D21D55C95A00099F58 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		E42712D41D55C96200099F58 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		E42712D61D55C97600099F58 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		E5A1F012B202F1E6A24D15FC /* Pods-react-native-xsy-upgrade_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-xsy-upgrade_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-react-native-xsy-upgrade_Example/Pods-react-native-xsy-upgrade_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F4BF90C7AA43BC6F6D563E5B /* Pods-react-native-xsy-upgrade_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-xsy-upgrade_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-react-native-xsy-upgrade_Example/Pods-react-native-xsy-upgrade_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42712D71D55C97600099F58 /* libz.tbd in Frameworks */,
+				E42712D51D55C96200099F58 /* libbz2.tbd in Frameworks */,
+				E42712D31D55C95A00099F58 /* libbz2.1.0.tbd in Frameworks */,
+				E42712CF1D55BFE500099F58 /* libc++.tbd in Frameworks */,
+				E42712D01D55BFE500099F58 /* libstdc++.6.0.9.tbd in Frameworks */,
+				E42712D11D55BFE500099F58 /* libstdc++.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -117,6 +135,12 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E42712D61D55C97600099F58 /* libz.tbd */,
+				E42712D41D55C96200099F58 /* libbz2.tbd */,
+				E42712D21D55C95A00099F58 /* libbz2.1.0.tbd */,
+				E42712CC1D55BFE500099F58 /* libc++.tbd */,
+				E42712CD1D55BFE500099F58 /* libstdc++.6.0.9.tbd */,
+				E42712CE1D55BFE500099F58 /* libstdc++.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -511,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5A1F012B202F1E6A24D15FC /* Pods-react-native-xsy-upgrade_Example.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -519,6 +544,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -527,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4BF90C7AA43BC6F6D563E5B /* Pods-react-native-xsy-upgrade_Example.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -535,6 +562,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,6 +1,0 @@
-framework module react_native_xsy_upgrade {
-  umbrella header "react-native-xsy-upgrade-umbrella.h"
-
-  export *
-  module * { export * }
-}
