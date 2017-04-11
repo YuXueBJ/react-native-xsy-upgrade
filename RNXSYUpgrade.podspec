@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RNXSYUpgrade'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'react-native-xsy-upgrade 是热更新，仅限于xsy react-native项目'
   s.homepage         = 'https://github.com/YuXueBJ/react-native-xsy-upgrade'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -27,6 +27,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.library = 'c++','stdc++.6.0.9'
+  s.library = 'c++','stdc++.6.0.9','bz2.1.0'
   s.requires_arc = true
 end
